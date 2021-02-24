@@ -1,3 +1,8 @@
 .jumbo-bg {
-    background: linear-gradient(180deg, rgba(0,33,36,1) 0%, rgba(121,118,9,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%, rgba(121,118,9,1) 0%);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
 }
