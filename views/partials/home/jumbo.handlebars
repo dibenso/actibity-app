@@ -94,9 +94,14 @@
                         </select>
                     </div>
                     <br />
-                    <button type="submit" class="btn btn-success submit btn-lg">Submit</button>
+                    <button type="submit" id="submit_button" class="btn btn-success submit btn-lg">Submit</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<form action="/" method="POST" enctype="multipart/form-data">
+<input type="file" name="upload" multiple/>
+<input type="submit" value="Upload"/>
+</form>
